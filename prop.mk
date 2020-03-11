@@ -129,8 +129,15 @@ vendor.video.disable.ubwc=1
 
 # Memory optimizations
 PRODUCT_PROPERTY_OVERRIDES += \
-ro.vendor.qti.sys.fw.bservice_enable=true \
-debug.sf.enable_gl_backpressure=1
+debug.sf.enable_gl_backpressure=1 \
+dalvik.vm.heapsize=36m \
+persist.cne.feature=1 \
+mm.enable.qcom_parser=17825791 \
+ro.use_data_netmgrd=true \
+ro.qualcomm.cabl=2 \
+telephony.lteOnCdmaDevice=1 \
+persist.fuse_sdcard=true \
+persist.sys.usb.config=diag,serial_smd,rmnet_ipa,adb
 
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
