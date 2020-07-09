@@ -9,6 +9,7 @@ audio.deep_buffer.media=true \
 audio.offload.disable=true \
 audio.offload.min.duration.secs=30 \
 audio.offload.video=true \
+persist.vendor.audio.hw.binder.size_kbyte=1024 \
 ro.config.media_vol_steps=25 \
 ro.config.vc_call_vol_steps=7 \
 persist.vendor.btstack.enable.splita2dp=false \
